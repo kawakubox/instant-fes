@@ -1,0 +1,7 @@
+export API_KEY=
+export AUTH_DOMAIN=
+export DATABASE_URL=
+export MESSAGING_SENDER_ID=
+export PROJECT_ID=
+export STORAGE_BUCKET=
+

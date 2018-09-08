@@ -1,10 +1,16 @@
+import firebase from 'firebase';
 import * as React from 'react';
 import './App.css';
+import {FirebaseConfig} from './AppConfig'
 
 import logo from './logo.svg';
 
 class App extends React.Component {
   public render() {
+
+    firebase.initializeApp(FirebaseConfig.config);
+    console.log(firebase.app().name);
+
     return (
       <div className="App">
         <header className="App-header">
